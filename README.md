@@ -1,5 +1,5 @@
 <p align=center>
-    <img src="public/img/186734.jpg>
+    <img src="public/img/186734.jpg">
 </p>
 
 [![Build Status](https://travis-ci.com/tcheon8788/NCKU-Weather.svg?branch=master)](https://travis-ci.com/tcheon8788/NCKU-Weather)
