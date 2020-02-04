@@ -15,66 +15,90 @@
 </head>
 
 <body>
-    <div class="container moving-glow">
-        <div class="header">
-            <div class="location" data-location>NCKU</div>
-            <div class="tempandstat">
-                <div class="temp" data-temperature>19.09°C</div>
-                <div class="status" data-status>Mostly Cloudly</div>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <h4>NCKU Weather</h4>
             </div>
-            <div class="icon-container">
-                <canvas id="icon" width="180" height="180"></canvas>
+            <ul class="nav-links">
+                <li>
+                    <a href="#">Post</a>
+                </li>
+                <li>
+                    <a href="#">Source</a>
+                </li>
+                <li>
+                    <a href="#">Creator</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
+        </nav>
+    </div>
+    <div class="child">
+        <div class="container moving-glow">
+            <div class="header">
+                <div class="location" data-location>NCKU</div>
+                <div class="tempandstat">
+                    <div class="temp" data-temperature>19.09°C</div>
+                    <div class="status" data-status>Mostly Cloudly</div>
+                </div>
+                <div class="icon-container">
+                    <canvas id="icon" width="180" height="180"></canvas>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="content">
+                <div class="detail-section first-detail">
+                    <div class="detail">
+                        <div class="title">Wind</div>
+                        <div class="value" data-wind>6.54m/s</div>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Humidity</div>
+                        <div class="value" data-humidity>80%</div>
+                    </div>
+                    <div class="detail">
+                        <div class="title">Precipitation</div>
+                        <div class="value" data-precipitation>4.00%</div>
+                    </div>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="detail-section last-detail">
+                    <div class="detail">
+                        <div class="title2">Apparent Temperature</div>
+                        <div class="value2" data-at>23°C</div>
+                    </div>
+                    <div class="detail">
+                        <div class="title2">Dew Point</div>
+                        <div class="value2" data-dew>23°C</div>
+                    </div>
+                    <div class="detail">
+                        <div class="title2">Precipitation Intensity</div>
+                        <div class="value2" data-pi>0.008 mm/hr</div>
+                    </div>
+                    <div class="detail">
+                        <div class="title2">Visibility</div>
+                        <div class="value2" data-visibility>16 km</div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="summary">
+                <div class="hourly">
+                    <div class="sumTitle">Hourly Summary:</div>
+                    <div class="sum" hourly-summary>Overcast Throughout the day.</div>
+                </div>
+                <div class="daily">
+                    <div class="sumTitle">Daily Summary:</div>
+                    <div class="sum" daily-summary>No precipitation throughout the week.</div>
+                </div>
+            </div>
+            <input type="text" class="searchbox" data-city-search placeholder="Search for other locations...">
         </div>
-        <div class="line"></div>
-        <div class="content">
-            <div class="detail-section first-detail">
-                <div class="detail">
-                    <div class="title">Wind</div>
-                    <div class="value" data-wind>6.54m/s</div>
-                </div>
-                <div class="detail">
-                    <div class="title">Humidity</div>
-                    <div class="value" data-humidity>80%</div>
-                </div>
-                <div class="detail">
-                    <div class="title">Precipitation</div>
-                    <div class="value" data-precipitation>4.00%</div>
-                </div>
-            </div>
-            <div class="vertical-line"></div>
-            <div class="detail-section last-detail">
-                <div class="detail">
-                    <div class="title2">Apparent Temperature</div>
-                    <div class="value2" data-at>23°C</div>
-                </div>
-                <div class="detail">
-                    <div class="title2">Dew Point</div>
-                    <div class="value2" data-dew>23°C</div>
-                </div>
-                <div class="detail">
-                    <div class="title2">Precipitation Intensity</div>
-                    <div class="value2" data-pi>0.008 mm/hr</div>
-                </div>
-                <div class="detail">
-                    <div class="title2">Visibility</div>
-                    <div class="value2" data-visibility>16 km</div>
-                </div>
-            </div>
-        </div>
-        <div class="line"></div>
-        <div class="summary">
-            <div class="hourly">
-                <div class="sumTitle">Hourly Summary:</div>
-                <div class="sum" hourly-summary>Overcast Throughout the day.</div>
-            </div>
-            <div class="daily">
-                <div class="sumTitle">Daily Summary:</div>
-                <div class="sum" daily-summary>No precipitation throughout the week.</div>
-            </div>
-        </div>
-        <input type="text" class="searchbox" data-city-search placeholder="Search for other locations...">
-        <!-- <div class="searchbox">Search for other locations ...</div> -->
     </div>
     <a href="https://darksky.net/poweredby" class="darksky-logo">Powered By Dark Sky</a>
 </body>
