@@ -232,7 +232,7 @@ body {
     box-shadow: 0px 0px 8px rgb(0, 199, 152) inset, 0px 0px 8px rgb(0, 199, 152);
     border-radius: 15px;
     color: #FAF157;
-    /* text-shadow: 0px 2px 5px rgba(250, 241, 87, 0.65), 0px -2px 5px rgba(245, 243, 206, 0.65); */
+    text-shadow: 0px 2px 5px rgba(250, 241, 87, 0.65), 0px -2px 5px rgba(245, 243, 206, 0.65);
     background: none;
 }
 
@@ -414,9 +414,8 @@ body {
 
 /* nav bar  */
 .wrapper {
-    z-index: 100;
+    z-index: 1;
     overflow-x: hidden;
-    height: 100%;
 }
 
 nav {
@@ -468,6 +467,10 @@ nav {
     font-size: 1vw;
 }
 
+.blackbg {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 50%;
@@ -478,26 +481,19 @@ nav {
     .wrapper {
         overflow: hidden;
         position: relative;
-        height: 100%;
+        background-color: #222;
+        opacity: 0.9;
         /* overflow-x: hidden;
         overflow-y: hidden; */
     }
 
-    html,
-    body {
-        /* overflow: hidden;
-        position: relative;
-        height: 100%; */
-        /* overflow-y: hidden;
-        overflow-x: hidden;  */
-    }
-
     nav {
-        z-index: -5;
+        z-index: 2;
         min-height: 6vh;
     }
 
     .nav-links {
+        z-index: 2;
         padding: 0px;
         position: absolute;
         right: 0px;

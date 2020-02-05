@@ -32,8 +32,14 @@ function navSlide() {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
+    const wrapper = document.querySelector('.wrapper');
 
     burger.addEventListener('click', () => { //Toggle
+        if (wrapper.style.height == '100%')
+            setTimeout(() => wrapper.style.height = '', 500)
+        else {
+            wrapper.style.height = '100%'
+        }
         nav.classList.toggle('nav-active');
 
         navLinks.forEach((link, index) => { //Each Animation
