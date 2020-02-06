@@ -1,5 +1,5 @@
 <p align=center>
-    <img src="public/img/1920.gif">
+    <img src="public/img/1920.gif" width="801" height="456">
 </p>
 
 <p align=center>
@@ -10,7 +10,7 @@
     <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 </p>
 
-> Responsive weather web APP for not only NCKU!
+> Responsive weather web app for not only NCKU!
 
 The weather data is fetched from the API using Javascript express for backend.
 Vanilla Javascript and CSS are used for the cool glowing UI layout.
@@ -23,7 +23,7 @@ All data powered by [Dark Sky](https://darksky.net/dev) APIs.
 ## Responsive Layout
 
 <p align=center>
-    <img src="public/img/responsive.gif">
+    <img src="public/img/responsive.gif" width="558" height="342">
 </p>
 
 ## License
