@@ -68,8 +68,8 @@ function getData(latitude, longitude, place) {
         })
     }).then(res => res.json())
         .then(data => {
-            console.log(data)
-            console.log(place)
+            // console.log(data)
+            // console.log(place)
             setWeatherData(data, place)
         })
 }
@@ -89,8 +89,8 @@ function setWeatherData(data, address) {
     hourlyElement.textContent = data.hourly.summary
     dailyElement.textContent = data.daily.summary
 
-    console.log(data.hourly.summary)
-    console.log(data.daily.summary)
+    // console.log(data.hourly.summary)
+    // console.log(data.daily.summary)
     icon.set('icon', data.currently.icon)
     icon.play()
 }
