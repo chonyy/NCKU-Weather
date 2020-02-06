@@ -23,7 +23,7 @@ All data powered by [Dark Sky](https://darksky.net/dev) APIs.
 ## Responsive Layout
 
 <p align=center>
-    <img src="public/img/responsive.gif" width="342" height="558">
+    <img src="public/img/responsive.jpg">
 </p>
 
 ## License
