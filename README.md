@@ -1,5 +1,5 @@
 <p align=center>
-    <img src="public/img/1920.gif" width="801" height="456">
+    <img src="public/img/1920.gif" width="862" height="491">
 </p>
 
 <p align=center>
@@ -23,7 +23,7 @@ All data powered by [Dark Sky](https://darksky.net/dev) APIs.
 ## Responsive Layout
 
 <p align=center>
-    <img src="public/img/responsive.gif" width="558" height="342">
+    <img src="public/img/responsive.gif" width="342" height="558">
 </p>
 
 ## License
