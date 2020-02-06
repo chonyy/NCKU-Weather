@@ -1,5 +1,5 @@
 <p align=center>
-    ![layout GIF](public/img/1920.gif)
+    <img src="public/img/1920.gif">
 </p>
 
 <p align=center>
@@ -14,7 +14,6 @@
 
 The weather data is fetched from the API using Javascript express for backend.
 Vanilla Javascript and CSS are used for the cool glowing UI layout.
-
 By default, the first page is set to NCKU, but you are free to **search for any other locations**. Whether it's where you currently at or where you are planning to go.
 
 All data powered by [Dark Sky](https://darksky.net/dev) APIs.
@@ -24,7 +23,7 @@ All data powered by [Dark Sky](https://darksky.net/dev) APIs.
 ## Responsive Layout
 
 <p align=center>
-    ![responsive GIF](img/responsive.gif)
+    <img src="public/img/responsive.gif">
 </p>
 
 ## License
