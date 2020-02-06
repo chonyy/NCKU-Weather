@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "devStart": "nodemon server.js",
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js"
+    "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "MIT",
@@ -16,7 +15,6 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "istanbul": "^0.4.5",
     "nodemon": "^2.0.2"
   }
 }
