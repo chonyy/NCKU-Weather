@@ -20,11 +20,17 @@ icon.play()
 getData(22.9988416, 120.2195148, 'NCKU')
 
 searchBox.addListener('places_changed', () => {
+    var mq = window.matchMedia("(max-width: 800px)");
     const place = searchBox.getPlaces()[0]
     if (place == null) return
     const latitude = place.geometry.location.lat()
     const longitude = place.geometry.location.lng()
-    locationElement.style.fontSize = "2.5vw"
+    if (mq.matches) {
+        locationElement.style.fontSize = "2.5vw"
+    }
+    else {
+        locationElement.style.fontSize = "1.5vw"
+    }
     getData(latitude, longitude, place.formatted_address)
 })
 
