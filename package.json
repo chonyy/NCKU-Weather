@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p align=center>     <img src=\"public/img/1920.gif\" width=\"862\" height=\"491\"> </p>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -16,5 +16,13 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chonyy/NCKU-Weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chonyy/NCKU-Weather/issues"
+  },
+  "homepage": "https://github.com/chonyy/NCKU-Weather#readme"
 }
