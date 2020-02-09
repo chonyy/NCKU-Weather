@@ -3,12 +3,12 @@
 </p>
 
 <p align=center>
-    <a target="_blank" href="https://travis-ci.com/chonyyy/NCKU-Weather" title="Build Status"><img src="https://travis-ci.com/chonyyy/NCKU-Weather.svg?branch=master"></a>
-    <a target="_blank" href="#" title="language count"><img src="https://img.shields.io/github/languages/count/chonyyy/NCKU-Weather"></a>
-    <a target="_blank" href="#" title="top language"><img src="https://img.shields.io/github/languages/top/chonyyy/NCKU-Weather?color=orange"></a>
+    <a target="_blank" href="https://travis-ci.com/chonyy/NCKU-Weather" title="Build Status"><img src="https://travis-ci.com/chonyy/NCKU-Weather.svg?branch=master"></a>
+    <a target="_blank" href="#" title="language count"><img src="https://img.shields.io/github/languages/count/chonyy/NCKU-Weather"></a>
+    <a target="_blank" href="#" title="top language"><img src="https://img.shields.io/github/languages/top/chonyy/NCKU-Weather?color=orange"></a>
     <a target="_blank" href="http://nodejs.org/download/" title="Node version"><img src="https://img.shields.io/badge/node.js-%3E=_6.0-green.svg"></a>
     <a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-    <a target="_blank" href="#" title="repo size"><img src="https://img.shields.io/github/repo-size/chonyyy/NCKU-Weather"></a>
+    <a target="_blank" href="#" title="repo size"><img src="https://img.shields.io/github/repo-size/chonyy/NCKU-Weather"></a>
     <a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 </p>
 
@@ -30,4 +30,4 @@ All data powered by [Dark Sky](https://darksky.net/dev) APIs.
 
 ## License
 
-MIT © [chonyyy](https://github.com/chonyyy)
+MIT © [chonyy](https://github.com/chonyy)
